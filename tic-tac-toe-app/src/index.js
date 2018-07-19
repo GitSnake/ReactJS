@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+
+
+
+/*
 class Square extends React.Component {
 	constuctor(props) {
 		super(props);
@@ -67,8 +71,8 @@ class Game extends React.Component {
 					<Board />
 				</div>
 				<div className="game-info">
-					<div>{/* status */}</div>
-					<ol>{/* TODO */}</ol>
+					<div>{/* status *//*}</div>
+					<ol>{/* TODO *//*}</ol>
 				</div>
 			</div>
 		);
