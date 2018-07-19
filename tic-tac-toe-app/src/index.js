@@ -77,7 +77,7 @@ class Game extends React.Component {
     );
   }
 }
-
+// check this for bugs
 /* calculateWinner function */
 
 function calculateWinner(squares) {
