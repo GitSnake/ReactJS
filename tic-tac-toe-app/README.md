@@ -1,1 +1,0 @@
-# ReactJS Tic Tac Toe App
