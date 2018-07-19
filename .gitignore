@@ -1,3 +1,9 @@
+# General files
+*.txt
+*.rtf
+*..sublime-project
+*.sublime-workspace
+
 # Logs
 logs
 *.log
