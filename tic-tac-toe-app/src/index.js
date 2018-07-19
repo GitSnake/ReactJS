@@ -29,7 +29,7 @@ constructor(props) {
     };
 }
   renderSquare(i) {
-    return <Square value={this.state.squares[i]} />;
+    return <Square value={i} />;
   }
 
   render() {
