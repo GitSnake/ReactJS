@@ -1,7 +1,11 @@
+:root{
+	margin:0 auto;
+	text-align: center;
+}
 body {
   background: #a1a582;
   font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+  margin: 0 auto;
 }
 
 ol, ul{
@@ -15,7 +19,7 @@ ol, ul{
 .square{
 	background: #a1a582;
 	border: 3px solid #3a3613;
-	float: left;
+	/*float: left;*/
 	font-size: 24px;
 	font-weight: bold;
 	line-height: 34px;
