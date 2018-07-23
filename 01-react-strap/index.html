@@ -13,31 +13,44 @@
     <div id="root"></div>
     <script type="text/babel">
 
-    var Theme = React.createClass({
+    var Navbar = React.createClass({
       render(){
         return(
           <div>
-            <h1>THEME COMPONENT</h1>
+            <h1>NAVBAR COMPONENT</h1>
           </div>
         );
       }
     });
 
-    var Theme = React.createClass({
+    var Jumbotron = React.createClass({
       render(){
         return(
           <div>
-            <h1>THEME COMPONENT</h1>
+            <h1>JUMBOTRON COMPONENT</h1>
           </div>
         );
       }
     });
 
+    var Page = React.createClass({
+      render(){
+        return(
+          <div>
+            <h1>PAGE COMPONENT</h1>
+          </div>
+        );
+      }
+    });
+
+
     var Theme = React.createClass({
       render(){
         return(
           <div>
-            <h1>THEME COMPONENT</h1>
+            <Navbar />
+            <Jumbotron />
+            <Page />
           </div>
         );
       }
