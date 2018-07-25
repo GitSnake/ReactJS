@@ -1,10 +1,10 @@
 let Product = React.createClass({
 	getInitialState: function(){
-		hello
+		return {qty: 0};
 	},
 
 	buy: function(){
-		alert("You bought an Android mobile.");
+		this.setState({qty: this.state.qty + 1});
 	},
 
   render: function(){
