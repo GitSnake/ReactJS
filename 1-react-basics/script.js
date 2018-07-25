@@ -1,9 +1,17 @@
 let Product = React.createClass({
+	getInitialState: function(){
+		hello
+	},
+
+	buy: function(){
+		alert("You bought an Android mobile.");
+	},
+
   render: function(){
   	return (
   		<main>
   			<p>Android - $199</p>
-  			<button>Buy</button>
+  			<button onClick={this.buy}>Buy</button>
   		</main>
   	);
   }
