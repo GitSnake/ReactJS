@@ -1,6 +1,9 @@
 let Hello = React.createClass({
-  render: function
-  
-  
-  
+  render: function(){
+  	return (
+  	
+  	);
+  }
 });
+
+React.render(<Hello />, document.getElementById("root"));
