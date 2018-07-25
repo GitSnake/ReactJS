@@ -1,7 +1,10 @@
 let Product = React.createClass({
   render: function(){
   	return (
-  		<h2>What's up React? Hello from GitSnake.</h2>
+  		<main>
+  			<p>Android - $199</p>
+  			<button>Buy</button>
+  		</main>
   	);
   }
 });
