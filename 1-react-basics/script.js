@@ -1,4 +1,4 @@
-let Hello = React.createClass({
+let Product = React.createClass({
   render: function(){
   	return (
   		<h2>What's up React? Hello from GitSnake.</h2>
@@ -6,4 +6,4 @@ let Hello = React.createClass({
   }
 });
 
-React.render(<Hello />, document.getElementById("root"));
+React.render(<Product />, document.getElementById("root"));
