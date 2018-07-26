@@ -18,7 +18,7 @@ let Product = React.createClass({
   }
 });
 
-var Total = React.createClass({
+let Total = React.createClass({
 	render: function() {
 		return (
 			<div>
@@ -28,7 +28,7 @@ var Total = React.createClass({
 	}
 });
 
-var ProductList = React.createClass({
+let ProductList = React.createClass({
 	render: function() {
 		return (
 			<div>
