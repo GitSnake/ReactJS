@@ -30,6 +30,10 @@ let Total = React.createClass({
 });
 
 let ProductList = React.createClass({
+	showProduct: function(name) {
+		alert("You selected " + name);
+	},
+	
 	render: function() {
 		return (
 			<div>
