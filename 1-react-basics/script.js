@@ -7,11 +7,17 @@ let Product = React.createClass({
 		this.setState({qty: this.state.qty + 1});
 	},
 
+
+	show: function(){
+		
+	},
+
   render: function(){
   	return (
   		<main>
   			<p>Android - $199</p>
   			<button onClick={this.buy}>Buy</button>
+  			<button onClick={this.show}>Show</button>
   			<h3>Qty: {this.state.qty} item(s)</h3>
   			<hr />
   		</main>
@@ -33,13 +39,16 @@ let ProductList = React.createClass({
 	showProduct: function(name) {
 		alert("You selected " + name);
 	},
-	
+
 	render: function() {
 		return (
 			<div>
-				<Product name="Android" price="121" />
-				<Product name="Apple" price="123" />
-				<Product name="Nokia" price="65" />
+				<Product name="Android" price="121"
+					handleShow={this.showProduct} />
+				<Product name="Apple" price="123"
+					handleShow={this.showProduct} />
+				<Product name="Nokia" price="65"
+					handleShow={this.showProduct} />
 				<Total />
 			</div>
 			);
